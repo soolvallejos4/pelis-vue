@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;600&display=swap');
+
+.container{
+    max-width: 1200px;
+}
+h2{
+    margin: 1em;
+    color: white;
+    font-size: 3em;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+   
+    
+}
+.slogan{
+    font-size: 1.5em;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+}
+.seleccion {
+    margin: 1.5em 0em 1.5em 0em;
+
+    
+}
+
+.banner {
+    height: 700px;
+   background-image: url("../img/background3.jpg"); 
+   background-repeat: none;
+   background-position: center;
+   background-size: cover;
+   /*  background-color: red; */
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+}
+#home .form {
+    background-color:#8f0100;
+    height: auto;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+#home form h3{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+#home form .enviar , .vista {
+    background-color: #1b1b1b;
+    color:white;
+    padding: 1em 2em 1em 2em;
+    border-radius: 0.8em;
+    border: none;
+}
+.fondo-mujer img{
+    width: 90%;
+}
+.form-pelis {
+   width: 1020px;
+   background-color: #8f0000ac;
+   color: white;
+   font-family: 'Inter Tight', sans-serif;
+   font-weight: 400;
+}
+.card {
+    color: black;
+    font-family: 'Inter Tight', sans-serif;
+}
+.card h3{
+    font-size: 1.2em;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+}
+
+
+footer {
+    background-color:#1b1b1b;
+}
+footer img{
+    width: 3em
+}
+
+body{
+    background-image: url(../img/prueba.jpg) ;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.enviado {
+    background-color: green;
+    margin-bottom: 2em;
+}
+
+.error ul li{
+    list-style: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Inter Tight', sans-serif;
+   font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Transiciones*/
+
+
+.router-link-active {
+    color: white;
+    background:#d82d23;
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: opacity 0.7s ease;
+}
+
+.fade-leave-active {
+    transition: opacity 0.7s ease;
+    opacity: 0;
+}
+
+.slide-fade-enter-active {
+    transition: all .3s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+.bounce-enter-active {
+    animation: bounce-in .5s;
+}
+
+.bounce-leave-active {
+    animation: bounce-in .5s reverse;
+}
+
+@keyframes bounce-in {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+} 
+
+@media (max-width: 992px){
+    .fondo-mujer img{
+        display: none
+    }
+}
